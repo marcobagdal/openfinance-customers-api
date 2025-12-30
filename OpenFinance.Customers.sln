@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFinance.Customers.Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFinance.Customers.CrossCutting", "src\OpenFinance.Customers.CrossCutting\OpenFinance.Customers.CrossCutting.csproj", "{5540294F-7982-438A-9D8A-AABA9AB4A6CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFinance.Customers.SharedKernel", "src\OpenFinance.Customers.SharedKernel\OpenFinance.Customers.SharedKernel.csproj", "{BB0AA45A-F12E-449E-91E5-D425377A7BA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,18 @@ Global
 		{5540294F-7982-438A-9D8A-AABA9AB4A6CC}.Release|x64.Build.0 = Release|Any CPU
 		{5540294F-7982-438A-9D8A-AABA9AB4A6CC}.Release|x86.ActiveCfg = Release|Any CPU
 		{5540294F-7982-438A-9D8A-AABA9AB4A6CC}.Release|x86.Build.0 = Release|Any CPU
+		{BB0AA45A-F12E-449E-91E5-D425377A7BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0AA45A-F12E-449E-91E5-D425377A7BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0AA45A-F12E-449E-91E5-D425377A7BA0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BB0AA45A-F12E-449E-91E5-D425377A7BA0}.Debug|x64.Build.0 = Debug|Any CPU
+		{BB0AA45A-F12E-449E-91E5-D425377A7BA0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB0AA45A-F12E-449E-91E5-D425377A7BA0}.Debug|x86.Build.0 = Debug|Any CPU
+		{BB0AA45A-F12E-449E-91E5-D425377A7BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0AA45A-F12E-449E-91E5-D425377A7BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB0AA45A-F12E-449E-91E5-D425377A7BA0}.Release|x64.ActiveCfg = Release|Any CPU
+		{BB0AA45A-F12E-449E-91E5-D425377A7BA0}.Release|x64.Build.0 = Release|Any CPU
+		{BB0AA45A-F12E-449E-91E5-D425377A7BA0}.Release|x86.ActiveCfg = Release|Any CPU
+		{BB0AA45A-F12E-449E-91E5-D425377A7BA0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,5 +109,6 @@ Global
 		{DD28D277-237A-4C79-B6E7-23C57E823671} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{C5FF46BA-338D-4840-B6B5-574126DE4689} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{5540294F-7982-438A-9D8A-AABA9AB4A6CC} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{BB0AA45A-F12E-449E-91E5-D425377A7BA0} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
